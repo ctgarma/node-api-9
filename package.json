@@ -4,7 +4,8 @@
   "description": "coding challenge API creation ",
   "main": "server.js",
   "scripts": {
-    "test": "node server"
+    "test": "node server",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
