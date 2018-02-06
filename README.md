@@ -8,3 +8,7 @@ run command line:
 node server
 
 Note: runs in port 3000
+
+to run the test suite :
+
+npm test
