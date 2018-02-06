@@ -12,3 +12,17 @@ Note: runs in port 3000
 to run the test suite :
 
 npm test
+
+
+Additional Note:
+
+Libraries used:
+
+express
+body-parser
+
+For test suite:
+mocha
+expect
+supertest
+
