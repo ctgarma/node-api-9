@@ -23,7 +23,6 @@ request(app)
     var arr = res.body.response;
     var arr = arr.filter(arr => arr.drm != true);
     expect(arr.length==0);
-
   }).end(done);
 });
 
@@ -37,6 +36,5 @@ request(app)
     var arr = res.body.response;
     var arr = arr.filter(arr => arr.episodeCount <= 0);
     expect(arr.length==0);
-
   }).end(done);
 });
