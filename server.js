@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(err.clientErrorHandler);
 
 app.post('/', (req, res) => {
-  console.log(req.body);
+//  console.log(req.body);
   try {
     var arr = req.body.payload;
     var arr = arr.filter(arr => arr.drm == true);
@@ -34,3 +34,6 @@ app.post('/', (req, res) => {
 app.listen(port, () => {
   console.log('server started on port', port);
 })
+
+
+module.exports.app =app;

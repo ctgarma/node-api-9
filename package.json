@@ -4,7 +4,7 @@
   "description": "coding challenge API creation ",
   "main": "server.js",
   "scripts": {
-    "test": "node server",
+    "test": "mocha **/*.test.js",
     "start": "node server.js"
   },
   "author": "",
@@ -13,5 +13,10 @@
     "axios": "^0.17.1",
     "express": "^4.16.2",
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.0.0",
+    "supertest": "^3.0.0"
   }
 }
