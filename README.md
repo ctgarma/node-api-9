@@ -1,5 +1,5 @@
 # node-api-9
-simple node api
+simple node api. Test cases included
 
 clone or download and install using : npm install
 
@@ -14,7 +14,7 @@ to run the test suite :
 npm test
 
 
-Additional Note:
+## Additional Note:
 
 Libraries used:
 
